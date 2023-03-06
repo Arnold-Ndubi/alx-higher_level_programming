@@ -1,1 +1,1 @@
-This file contains python hello world projects
+This file contains python projects in ALX
