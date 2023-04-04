@@ -5,7 +5,7 @@
 class Rectangle:
     """ reps a rectangle."""
 
-    def __init__(self, height=0, width=0):
+    def __init__(self, width=0, height=0):
         """this construtor initializes a new Rectangle.
 
         Args:
@@ -17,7 +17,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """Get/set the width of the rectangle."""
+        """set the width (rectangle)."""
         return self.__width
 
     @width.setter
@@ -30,7 +30,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """Get/set the height of the rectangle."""
+        """Get the height(rectangle)."""
         return self.__height
 
     @height.setter
